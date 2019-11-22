@@ -124,7 +124,6 @@ function question1() {
     
     });
     
-    
     /**
      * Question 10:
      * When button 10 is clicked, select all paragraphs on the page and change the color to blue and font to Georgia.
