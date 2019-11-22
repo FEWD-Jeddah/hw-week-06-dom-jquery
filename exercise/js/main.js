@@ -1,7 +1,7 @@
 /**
  * Javascript/jQuery Exercises: Selecting Things In The DOM!
 * Answer the following questions. This practice set gets progressively harder.
-* Remember to test each question, before moving on. Once you're achieved the desired outcome, comment out the code and 
+* Remember to test each question, before moving on. Once you've achieved the desired outcome, comment out the code and 
 * move on to the next question.
  */
 
@@ -17,6 +17,7 @@
 
 function question1() {
 	// your answer here
+	$("p").css("color", "blue");
 }
 
 $("#button1").on('click', question1);
@@ -29,6 +30,7 @@ $("#button1").on('click', question1);
 
 function question2(){
 	// your answer here
+	$("h2").html("<h2>Mr.Roboto</h2>");
 }
 
 $("#button2").on('click', question2);
@@ -42,6 +44,7 @@ $("#button2").on('click', question2);
 
 function question3(){
 	// your answer here
+	$(".falseFact").html("True Fact");
 }
 
 $("#button3").on('click', question3);
@@ -56,20 +59,37 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+function question4(){
+	//$("body").css("background-color","pink");
+	//OR
+	//$("*").css("background-color","pink");
+}
+
+$("#button4").on('click', question4);
 
 /**
  * Question 5:
- * When button 5 is clicked, change the color of all h2's to "green"
+ * When button 5 is clicked, change the color of all h2's to "yellow-green"
  */
 
 // your answer here
+function question5(){
+	$("h2").css("color", "yellowgreen");
+}
+
+$("#button5").on('click', question5);
 
 /**
  * Question 6:
- * When button 6 is clicked, change the html content of all "blockquotes" to be "<span>no quote</span>"
+ * When button 6 is clicked, change the html content of all "blockquote" to be "<span>no quote</span>"
  */
 
  // your answer here
+ function question6(){
+	$("blockquote").html("<span>no quote</span>");
+}
+
+$("#button6").on('click', question6);
 
 ///////////////////////////////////////////////////////////////////////////////////////
 // SECTION 3: This section is more difficult. Try your hand at the next 3 questions. //
@@ -81,6 +101,11 @@ $("#button3").on('click', question3);
  */
 
  // your answer here
+ function question7(){
+	$("h1").html("jQuery Ninja");
+}
+
+$("#button7").on('click', question7);
 
 /**
  * Question 8:
@@ -89,6 +114,11 @@ $("#button3").on('click', question3);
  */
 
  // your answer here
+ function question8(){
+	$(".city").attr("src", "http://lorempixel.com/g/500/400/food");
+}
+
+$("#button8").on('click', question8);
 
 /**
  * Question 9:
@@ -96,6 +126,12 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+function question9(){
+	$("p").css("font-family", "Georgia");
+	$("p").css("color", "blue");
+}
+
+$("#button9").on('click', question9);
 
 /**
  * Question 10:
@@ -104,5 +140,8 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+function question10(){
+	$("p").css({"font-family": "Georgia", "color": "blue"});
+}
 
-
+$("#button10").on('click', question10);
