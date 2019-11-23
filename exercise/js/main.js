@@ -17,6 +17,9 @@
 
 function question1() {
 	// your answer here
+	$( "#button1" ).click(function() {
+		$("p").css("color","blue")
+	  });
 }
 
 $("#button1").on('click', question1);
@@ -28,7 +31,9 @@ $("#button1").on('click', question1);
  */
 
 function question2(){
-	// your answer here
+	$( "#button2" ).click(function() {
+		$("h2").text("bayan")
+	  });
 }
 
 $("#button2").on('click', question2);
@@ -42,6 +47,9 @@ $("#button2").on('click', question2);
 
 function question3(){
 	// your answer here
+	$( "#button3" ).click(function() {
+		$(".falseFact").text("True Fact")
+	  });
 }
 
 $("#button3").on('click', question3);
@@ -56,6 +64,14 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+function question4(){
+	// your answer here
+	$( "#button4" ).click(function() {
+		$("body").css("background-color","pink")
+	  });
+}
+
+$("#button4").on('click', question4);
 
 /**
  * Question 5:
@@ -63,14 +79,28 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+function question5(){
+	// your answer here
+	$( "#button5" ).click(function() {
+		$("h2").css("color","green")
+	  });
+}
 
+$("#button5").on('click', question5);
 /**
  * Question 6:
  * When button 6 is clicked, change the html content of all "blockquotes" to be "<span>no quote</span>"
  */
 
  // your answer here
+ function question6(){
+	// your answer here
+	$( "#button6" ).click(function() {
+		$("blockquote").html("<span>no quote</span>")
+	  });
+}
 
+$("#button6").on('click', question6);
 ///////////////////////////////////////////////////////////////////////////////////////
 // SECTION 3: This section is more difficult. Try your hand at the next 3 questions. //
 ///////////////////////////////////////////////////////////////////////////////////////
@@ -81,7 +111,13 @@ $("#button3").on('click', question3);
  */
 
  // your answer here
+ function question7(){
+	$( "#button7" ).click(function() {
+		$("h1").text("jQuery Ninja")
+	  });
+}
 
+$("#button7").on('click', question7);
 /**
  * Question 8:
  * Have the following code execute when button 8 is clicked.
@@ -89,6 +125,13 @@ $("#button3").on('click', question3);
  */
 
  // your answer here
+ function question8(){
+	$( "#button8" ).click(function() {
+		$(".city").attr("src", "http://lorempixel.com/g/500/400/food");
+	  });
+}
+
+$("#button8").on('click', question8);
 
 /**
  * Question 9:
@@ -96,13 +139,24 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+function question9(){
+	$( "#button9" ).click(function() {
+		$("p").css({"color":"blue", "font-family":"Georgia"});
+	  });
+}
 
+$("#button9").on('click', question9);
 /**
  * Question 10:
  * When button 10 is clicked, select all paragraphs on the page and change the color to blue and font to Georgia.
  * but with only one jQuery. $("selector").css({attribute: "value", attribute: "value"})
  */
+function question10(){
+	$( "#button9" ).click(function() {
+		$("p").css({"color":"blue", "font-family":"Georgia"});
+	  });
+}
 
-// your answer here
+$("#button10").on('click', question10);
 
 
