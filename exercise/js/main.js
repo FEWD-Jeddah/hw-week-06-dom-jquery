@@ -15,11 +15,15 @@
  * We've started you off, ONLY replace everything instance of "replaceMe" with correct code.
  */
 
-function question1() {
-	// your answer here
-}
 
-$("#button1").on('click', question1);
+
+
+$("#button1").on("click", function() {
+    
+    $("p").css("color", "blue");
+  });
+
+
 
 /**
  * Question 2:
@@ -27,11 +31,16 @@ $("#button1").on('click', question1);
  * Uncomment the code below and solve the problem
  */
 
-function question2(){
-	// your answer here
-}
+// // function question2(){
+// 	// your answer here
+// }
 
-$("#button2").on('click', question2);
+// $("#button2").on('click', question2);
+
+$("#button2").on("click", function() {
+    
+    $("h2").html("Anwar</b>");
+  });
 
 /**
  * Question 3:
@@ -40,11 +49,22 @@ $("#button2").on('click', question2);
  * Uncomment the code below and solve the problem
  */
 
-function question3(){
+// function question3(){
 	// your answer here
-}
 
-$("#button3").on('click', question3);
+	$("#button3").on("click",function() {
+	
+		document.querySelector('.falseFact')
+		.textContent= 'True Fact';
+		
+	
+		document.querySelector('.falseFac')
+		.textContent= 'True Fact';
+	  
+	   });
+// }
+
+// $("#button3").on('click', question3);
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
 // SECTION 2: Now you are on your own. Write the necessary code to accomplish the following. //
@@ -57,6 +77,20 @@ $("#button3").on('click', question3);
 
 // your answer here
 
+// $("#button4").on("click", function() {
+    
+//     $("p").css("background color", "pink");
+//   });
+
+          
+function changeColor(color) { 
+	document.body.style.background = color; 
+} 
+  
+function myFunction() { 
+	changeColor('pink'); 
+}   
+
 /**
  * Question 5:
  * When button 5 is clicked, change the color of all h2's to "green"
@@ -64,13 +98,25 @@ $("#button3").on('click', question3);
 
 // your answer here
 
+$("#button5").on("click", function() {
+    
+    $("h2").css("color", "green");
+  });
+
 /**
  * Question 6:
  * When button 6 is clicked, change the html content of all "blockquotes" to be "<span>no quote</span>"
  */
 
  // your answer here
+ $("#button6").on("click", function() {
+    
+ document.querySelector('#state')
+ .textContent= 'no quote';
 
+"no quote"
+
+});
 ///////////////////////////////////////////////////////////////////////////////////////
 // SECTION 3: This section is more difficult. Try your hand at the next 3 questions. //
 ///////////////////////////////////////////////////////////////////////////////////////
@@ -82,6 +128,12 @@ $("#button3").on('click', question3);
 
  // your answer here
 
+ $("#button7").on("click", function() {
+    
+	$("h1").css("color", "red");
+	 
+  });
+
 /**
  * Question 8:
  * Have the following code execute when button 8 is clicked.
@@ -90,12 +142,28 @@ $("#button3").on('click', question3);
 
  // your answer here
 
+ $("#button8").click(function(){
+	$(".city").attr("src", "http://lorempixel.com/g/500/400/food");
+});
+
 /**
  * Question 9:
  * When button 9 is clicked, select all paragraphs on the page and change the color to blue and font to Georgia.
  */
 
 // your answer here
+
+$("#button9").on("click", function() {
+    
+	$("p").css("color", "blue");
+	document.body.style.fontStyle = "georgia";
+	
+		
+	 
+  });
+
+ 
+
 
 /**
  * Question 10:
@@ -105,4 +173,7 @@ $("#button3").on('click', question3);
 
 // your answer here
 
-
+$("#button10").on("click", function() {
+    
+	$("p").css({color: "blue", fontStyle: "georgia"})
+  });
