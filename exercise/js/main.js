@@ -124,12 +124,12 @@ $("#button6").on('click', q6);
 
  // your answer here
  function q8(){
-	// $(".city").html.attr("src", "http://lorempixel.com/g/500/400/food");
-	let x = document.querySelector(".city");
-	x.getAttribute.
-	// document.getElementsByClassName("city").src="http://lorempixel.com/g/500/400/food";
- }
- $("#button8"),on('click',q8);
+	$(".city").attr("src", "img/download.jpg");
+	////test
+	//// $(".city").attr("src","http://lorempixel.com/g/500/400/food")
+	//// document.getElementsByClassName("city").src="http://lorempixel.com/g/500/400/food";
+ };
+ $("#button8").on('click',q8);
 
 /**
  * Question 9:
@@ -137,6 +137,11 @@ $("#button6").on('click', q6);
  */
 
 // your answer here
+function q9(){
+	// $("p").css('color','blue');
+	// $("p").css('fontFamily','Georgia');
+}
+$("#button9").on('click',q9);
 
 /**
  * Question 10:
@@ -145,5 +150,9 @@ $("#button6").on('click', q6);
  */
 
 // your answer here
+function q10(){
+	// $("p").css({color: "blue", fontFamily: "Georgia"});
+}
+$("#button10").on('click',q10);
 
 
