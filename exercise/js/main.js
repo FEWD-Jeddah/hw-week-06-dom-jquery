@@ -15,11 +15,11 @@
  * We've started you off, ONLY replace everything instance of "replaceMe" with correct code.
  */
 
-function question1() {
-	// your answer here
-}
+$("#button1").click(function () {
+	$("p").css("color" ,"red")
+})
 
-$("#button1").on('click', question1);
+// $("#button1").on('click', question1);
 
 /**
  * Question 2:
@@ -27,11 +27,11 @@ $("#button1").on('click', question1);
  * Uncomment the code below and solve the problem
  */
 
-function question2(){
-	// your answer here
-}
+$("#button2").on('click', function (){
+	$("h2") .text("Yousra");
+});
 
-$("#button2").on('click', question2);
+// $("#button2").on('click', question2);
 
 /**
  * Question 3:
@@ -40,11 +40,11 @@ $("#button2").on('click', question2);
  * Uncomment the code below and solve the problem
  */
 
-function question3(){
-	// your answer here
-}
+$("#button3").on('click',function (){
+	$(".falseFact") .text("True Fact");
+});
 
-$("#button3").on('click', question3);
+// $("#button3").on('click', question3);
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
 // SECTION 2: Now you are on your own. Write the necessary code to accomplish the following. //
@@ -56,6 +56,13 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+$("#button4").on('click',function (){
+$('body').css ('background-color' , 'Pink');
+
+});
+
+// $("#button4").on('click', question4);
+
 
 /**
  * Question 5:
@@ -63,6 +70,11 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+$("#button5").on('click',function (){
+	$("h2").css("color" ,"green");
+});
+
+// $("#button5").on('click', question5);
 
 /**
  * Question 6:
@@ -70,6 +82,11 @@ $("#button3").on('click', question3);
  */
 
  // your answer here
+ $("#button6").on('click' ,function (){
+	 $("blockquote").html("<span> no quote </span>");
+ });
+
+//  $("#button6").on('click' , question6);
 
 ///////////////////////////////////////////////////////////////////////////////////////
 // SECTION 3: This section is more difficult. Try your hand at the next 3 questions. //
@@ -81,6 +98,12 @@ $("#button3").on('click', question3);
  */
 
  // your answer here
+ $("#button7").on('click',function (){
+	$("h1") .text("jQuery Ninja");
+	$("h1").css("color" ,"orange"); //i just like to add one more action
+});
+
+// $("#button7").on('click', question7);
 
 /**
  * Question 8:
@@ -89,6 +112,11 @@ $("#button3").on('click', question3);
  */
 
  // your answer here
+ $("#button8").on('click' ,function (){
+	$(".city").attr("src", "http://lorempixel.com/g/500/400/food");
+ });
+
+//  $("#button8").on('click' , question8);
 
 /**
  * Question 9:
@@ -96,6 +124,13 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+$("#button9").on('click',function () {
+	$("p").css("font","Georgia");
+	$("p").css("color","blue");
+});
+
+// $("#button9").on('click', question9);
+
 
 /**
  * Question 10:
@@ -104,5 +139,11 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+
+$("#button10").on('click',function () {
+	$("p").css({font : "Georgia", color : "blue"});
+});
+
+// $("#button10").on('click', question10);
 
 
