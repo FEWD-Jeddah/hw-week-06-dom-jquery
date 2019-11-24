@@ -17,6 +17,10 @@
 
 function question1() {
 	// your answer here
+	$("#button1").on('click',function(){
+		$("p").css("color", "blue");
+		});
+
 }
 
 $("#button1").on('click', question1);
@@ -29,6 +33,9 @@ $("#button1").on('click', question1);
 
 function question2(){
 	// your answer here
+	$("#button2").on('click',function(){
+		$("h2").text("Hadeel");
+		});
 }
 
 $("#button2").on('click', question2);
@@ -42,6 +49,9 @@ $("#button2").on('click', question2);
 
 function question3(){
 	// your answer here
+	$("#button3").on('click',function(){
+		$(".falseFact").text("True Fact");
+		});
 }
 
 $("#button3").on('click', question3);
@@ -55,6 +65,15 @@ $("#button3").on('click', question3);
  * When button 4 is clicked, change the background color of the whole page to "pink"
  */
 
+function question4() {
+	$("#button4").on('click',function(){
+		$("body").css("background-color", "blue");
+		});
+}
+
+$("#button4").on('click', question4);
+
+
 // your answer here
 
 /**
@@ -62,6 +81,12 @@ $("#button3").on('click', question3);
  * When button 5 is clicked, change the color of all h2's to "green"
  */
 
+function question5(){
+	$("#button5").on('click',function(){
+		$("h2").css("color", "green");
+		});
+}
+$("#button5").on('click', question5);
 // your answer here
 
 /**
@@ -70,6 +95,12 @@ $("#button3").on('click', question3);
  */
 
  // your answer here
+ function question6(){
+	$("#button6").on('click',function(){
+		$("blockquote").html("<span>no quote</span>");
+		});
+}
+$("#button6").on('click', question6);
 
 ///////////////////////////////////////////////////////////////////////////////////////
 // SECTION 3: This section is more difficult. Try your hand at the next 3 questions. //
@@ -81,6 +112,12 @@ $("#button3").on('click', question3);
  */
 
  // your answer here
+ function question7(){	
+	$("#button7").on('click',function(){
+		$("header h1").text("jQuery Ninja");
+		});
+}
+$("#button7").on('click', question7);
 
 /**
  * Question 8:
@@ -89,6 +126,12 @@ $("#button3").on('click', question3);
  */
 
  // your answer here
+ function question8(){
+	$("#button8").on('click',function(){
+		$(".city").attr("src", "http://lorempixel.com/g/500/400/food");
+		});
+}
+$("#button8").on('click', question8);
 
 /**
  * Question 9:
@@ -96,7 +139,14 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+function question9() {
+	$("#button9").on('click',function(){
+		$("p").css("color", "blue");
+		$("p").css("font", "Georgia");
+		});
 
+}
+$("#button9").on('click', question9);
 /**
  * Question 10:
  * When button 10 is clicked, select all paragraphs on the page and change the color to blue and font to Georgia.
@@ -105,4 +155,11 @@ $("#button3").on('click', question3);
 
 // your answer here
 
+function question10() {
+	$("#button10").on('click',function(){
+		$("p").css({color: "blue", font: "Georgia"})
+		});
+
+}
+$("#button10").on('click', question10);
 
