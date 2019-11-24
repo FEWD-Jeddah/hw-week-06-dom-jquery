@@ -16,10 +16,11 @@
  */
 
 function question1() {
-	// your answer here
+	let p= $(this).css ("color","blue");
 }
 
 $("#button1").on('click', question1);
+
 
 /**
  * Question 2:
