@@ -15,12 +15,9 @@
  * We've started you off, ONLY replace everything instance of "replaceMe" with correct code.
  */
 
-function question1() {
-	let p= $(this).css ("color","blue");
-}
-
-$("#button1").on('click', question1);
-
+$("#button1").on("click","p" ,function question1() {
+	$(this).css ("color","blue");
+});
 
 /**
  * Question 2:
@@ -86,10 +83,11 @@ $("#button3").on('click', question3);
 /**
  * Question 8:
  * Have the following code execute when button 8 is clicked.
- * $(".city").attr("src", "http://lorempixel.com/g/500/400/food");
+ * 
  */
 
- // your answer here
+$("#button8").on('click');
+$(".city").attr("src", "http://lorempixel.com/g/500/400/food");
 
 /**
  * Question 9:
