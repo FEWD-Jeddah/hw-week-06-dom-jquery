@@ -17,6 +17,18 @@
 
 function question1() {
 	// your answer here
+	// $("p").css('color','blue');
+	
+	////test
+	//// let x  = document.querySelector('p');
+	//// x.style.color = 'blue';
+	//// let y = document.querySelector('.wrapper>p');
+	//// y.style.color = 'blue';
+	//// let z = document.querySelector('.wrapper>p');
+	//// z.style.color = 'blue';
+	////--
+	
+	
 }
 
 $("#button1").on('click', question1);
@@ -29,6 +41,7 @@ $("#button1").on('click', question1);
 
 function question2(){
 	// your answer here
+	// $("h2").text("Mullham Sahhaf");
 }
 
 $("#button2").on('click', question2);
@@ -42,6 +55,7 @@ $("#button2").on('click', question2);
 
 function question3(){
 	// your answer here
+	// $(".falseFact").text("True Fact");
 }
 
 $("#button3").on('click', question3);
@@ -56,6 +70,12 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+function q4(){
+	// $("*").css('background-color','pink');
+	//// test
+	//// document.body.style.background = 'pink';
+}
+$("#button4").on('click', q4);
 
 /**
  * Question 5:
@@ -63,6 +83,10 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+// function q5(){
+// 	$("h2").css('color','green');
+// }
+// $("#button5").on('click',q5);
 
 /**
  * Question 6:
@@ -70,6 +94,12 @@ $("#button3").on('click', question3);
  */
 
  // your answer here
+ function q6(){
+	//$("blockquote").html("<span>no quote</span>");
+	////test
+	////$("blockquote").text("<span>no quote</span>");
+ }
+$("#button6").on('click', q6);
 
 ///////////////////////////////////////////////////////////////////////////////////////
 // SECTION 3: This section is more difficult. Try your hand at the next 3 questions. //
@@ -81,6 +111,10 @@ $("#button3").on('click', question3);
  */
 
  // your answer here
+//  function q7(){
+// 	 $("h1").text("JQuery Ninja");
+//  }
+//  $("#button7").on('click',q7);
 
 /**
  * Question 8:
@@ -89,6 +123,13 @@ $("#button3").on('click', question3);
  */
 
  // your answer here
+ function q8(){
+	$(".city").attr("src", "img/download.jpg");
+	////test
+	//// $(".city").attr("src","http://lorempixel.com/g/500/400/food")
+	//// document.getElementsByClassName("city").src="http://lorempixel.com/g/500/400/food";
+ };
+ $("#button8").on('click',q8);
 
 /**
  * Question 9:
@@ -96,6 +137,11 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+function q9(){
+	// $("p").css('color','blue');
+	// $("p").css('fontFamily','Georgia');
+}
+$("#button9").on('click',q9);
 
 /**
  * Question 10:
@@ -104,5 +150,9 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+function q10(){
+	// $("p").css({color: "blue", fontFamily: "Georgia"});
+}
+$("#button10").on('click',q10);
 
 
